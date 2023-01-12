@@ -10,9 +10,13 @@
 
 - Array(배열)
     - 여러개의 데이터를 순서와 함께 저장하는 창고
+    - 대괄호로 생성
+    - 각각의 요소는 쉼표로 구분
     - 배열에 속해있는 데이터 하나하나를 요소(Element) 라고 표현
     - 배열의 순서는 index라고 표현하고 0부터 시작한다.
     - index를 통해 각 요소에 접근 가능하다.
+    - length
+        - 배열에 존재하는 요소에 개수를 기반으로 해당 배열의 길이를 담은 속성
 
 - Method
     - push() - 배열의 가장 뒤에 데이터를 추가해주는 method
@@ -21,5 +25,16 @@
     - includes() - 특정 배열에 주어진 데이터가 존재하는지 여부 확인
         - 여부에 따라 참(ture), 거짓(false)로 결과 반환
 
-- Object
+- Object(객체)
+    - 중괄호로 사용해서 정의
+    - 내부의 요소는 프로퍼티(키 + 값)
+    - Object 접근 방법
+        - Dot notation
+        - Breacket notation
+    
+- Object method
+    - Object.keys()
+        - 주어진 객체의 key만을 가져와 배열에 담아주는 method
+    - Object.values()
+        - 주어진 객체의 value만을 가져와 배열에 담아주는 method
 
